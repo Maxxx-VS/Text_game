@@ -1,0 +1,262 @@
+{
+    "start": {
+        "description": "Хотите много зарабатывать?",
+        "options": {
+            "ДА": "step_1_yes",
+            "НЕТ": "step_1_no"
+        },
+        "photos": {
+            "photo1": "money.png"
+        }
+    },
+    "step_1_no": {
+        "description": "Ваш язык программирования: DELPHI",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "delphi.png"
+        }
+    },
+    "step_1_yes": {
+        "description": "Вы тупой?",
+        "options": {
+            "ДА": "step_2_yes",
+            "НЕТ": "step_2_no"
+        },
+        "photos": {
+            "photo1": "stupid.png"
+        }
+    },
+    "step_2_yes": {
+        "description": "Очень?",
+        "options": {
+            "ДА": "step_3_yes",
+            "НЕТ": "step_3_no"
+        },
+        "photos": {
+            "photo1": "very_stupid.png"
+        }
+    },
+    "step_3_yes": {
+        "description": "У вас есть друзья?",
+        "options": {
+            "ДА": "step_4_yes",
+            "НЕТ": "step_4_no"
+        },
+        "photos": {
+            "photo1": "friends.png"
+        }
+    },
+    "step_4_yes": {
+        "description": "Они тоже тупые?",
+        "options": {
+            "ДА": "step_5_yes",
+            "НЕТ": "step_5_no"
+        },
+        "photos": {
+            "photo1": "stupid_friends.png"
+        }
+    },
+    "step_5_yes": {
+        "description": "Ваш язык программирования: JAVASCRIPT",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "javascript.png"
+        }
+    },
+    "step_5_no": {
+        "description": "Ваш язык программирования: RUBY",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "ruby.png"
+        }
+    },
+    "step_4_no": {
+        "description": "Ваш язык программирования: PHP",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "php.png"
+        }
+    },
+    "step_3_no": {
+        "description": "Вы насмотрелись уроков ХАУДИ ХО?",
+        "options": {
+            "ДА": "step_3.1_yes",
+            "НЕТ": "step_3.1_no"
+        },
+        "photos": {
+            "photo1": "hh.png"
+        }
+
+    },
+    "step_3.1_yes": {
+        "description": "Ваш язык программирования: PYTHON",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "python.png"
+        }
+    },
+    "step_3.1_no": {
+        "description": "Вам нравится Windows?",
+        "options": {
+            "ДА": "step_3.2_yes",
+            "НЕТ": "step_3.2_no"
+        },
+        "photos": {
+            "photo1": "windows.png"
+        }
+    },
+    "step_3.2_yes": {
+        "description": "Ваш язык программирования: C#",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "c#.png"
+        }
+    },
+    "step_3.2_no": {
+        "description": "Вы пи**р?",
+        "options": {
+            "ДА": "step_3.3_yes",
+            "НЕТ": "step_3.3_no"
+        },
+        "photos": {
+            "photo1": "fm.png"
+        }
+    },
+    "step_3.3_yes": {
+        "description": "Ваш язык программирования: SWIFT",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "swift.png"
+        }
+    },
+    "step_3.3_no": {
+        "description": "Ваш язык программирования: PERL",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "perl.png"
+        }
+    },
+    "step_2_no": {
+        "description": "Вы инженер?",
+        "options": {
+            "ДА": "step_2.1_yes",
+            "НЕТ": "step_2.1_no"
+        },
+        "photos": {
+            "photo1": "engineer.png"
+        }
+    },
+    "step_2.1_yes": {
+        "description": "Вам больше 50 лет?",
+        "options": {
+            "ДА": "step_2.2_yes",
+            "НЕТ": "step_2.2_no"
+        },
+        "photos": {
+            "photo1": "50.png"
+        }
+    },
+    "step_2.2_yes": {
+        "description": "Ваш язык программирования: Fortran",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "fortran.png"
+        }
+    },
+    "step_2.2_no": {
+        "description": "Ваш язык программирования: Matlad",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "ml.png"
+        }
+    },
+    "step_2.1_no": {
+        "description": "У вас есть ноги?",
+        "options": {
+            "ДА": "step_2.1.1_yes",
+            "НЕТ": "step_2.1.1_no"
+        },
+        "photos": {
+            "photo1": "legs.png"
+        }
+    },
+        "step_2.1.1_no": {
+        "description": "Ваш язык программирования: C",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "c.png"
+        }
+    },
+        "step_2.1.1_yes": {
+        "description": "А вам они нужны??",
+        "options": {
+            "ДА": "step_2.1.1.1_yes",
+            "НЕТ": "step_2.1.1.1_no"
+        },
+        "photos": {
+            "photo1": "legs_1.png"
+        }
+    },
+        "step_2.1.1.1_yes": {
+        "description": "Ваш язык программирования: JAVA",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "java.png"
+        }
+    },
+        "step_2.1.1.1_no": {
+        "description": "Ваш язык программирования: C++",
+        "options": {
+            "ОК": "bye",
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "c++.png"
+        }
+    },
+        "bye": {
+        "description": "Давай, досвидания!",
+        "options": {
+            "Начать заново": "start"
+        },
+        "photos": {
+            "photo1": "bye.jpg"
+        }
+    }
+}
